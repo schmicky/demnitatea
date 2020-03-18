@@ -12,7 +12,7 @@
 </p>
 <div class="row">
   <div class="col-3">
-    <a class="float-right" href="download/Formular-230-Demnitatea-Ponica.pdf">
+    <a class="float-right" href="download/Formular-230-Demnitatea-Pontica.pdf">
       <img src="pdf.png" height="40" alt="PDF" />
     </a>
 
@@ -29,13 +29,13 @@
 
 <div class="row">
   <div class="col-3">
-    <a class="float-right" href="download/Formular-230-Demnitatea-Ponica.pdf">
+    <a class="float-right" href="download/Contract-sponsorizare-demnitatea.doc">
       <img src="doc.png" height="40" alt="PDF" />
     </a>
 
   </div>
   <div class="col-9">
-    <a href="download/Formular-230-Demnitatea-Ponica.pdf">
+    <a href="download/Contract-sponsorizare-demnitatea.doc">
       <p>
         Descarca contract de sponsorizare completat cu datele fundatiei.
       </p>

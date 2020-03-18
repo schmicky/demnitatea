@@ -10,7 +10,12 @@
 
 <script>
   import ProiectList from "../components/ProiectList.svelte";
+  import { goto } from "@sapper/app";
   export let posts;
+
+  function doneaza() {
+    goto("/doneaza");
+  }
 </script>
 
 <style>
@@ -66,6 +71,7 @@
     font-weight: 400;
     border-radius: 5px;
     color: #fff;
+    cursor: pointer;
   }
 </style>
 
@@ -89,13 +95,14 @@
 <div class="row prezentare">
   <div class="col-md-8">
     <h5>Despre fundatie</h5>
-    Fundatia Demnitatea Pontica sustine proiecte punctuale de caritate si proiectul cultural Brauletul. Lorem,
-    ipsum dolor sit amet consectetur adipisicing elit. Amet, veniam! Officia
-    labore ut consequuntur dicta quibusdam praesentium assumenda nobis numquam?
+    Fundatia Demnitatea Pontica sustine proiecte punctuale de caritate si
+    proiectul cultural Brauletul. Lorem, ipsum dolor sit amet consectetur
+    adipisicing elit. Amet, veniam! Officia labore ut consequuntur dicta
+    quibusdam praesentium assumenda nobis numquam?
   </div>
-  <div class="col-md-3 doneaza1 mb-4">
+  <div class="col-md-3 doneaza1 mb-4" on:click={doneaza}>
     Contributia ta inseamna foarte mult pentru cei aflati in dificultate.
-    <a href="doneaza">Doneaza</a>
+    Doneaza.
   </div>
 </div>
 
